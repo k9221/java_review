@@ -12,7 +12,27 @@ public class Human {
 		this.addr = addr;
 	}      //우클릭 > soure > Generate Getter and setter 선택하면 자동으로 생성된다.
 	
+	
+	public String getName() {
+		return name;
+	}
+
+
+
+	public int getAge() {
+		return age;
+	}
+
+
+
+	public String getAddr() {
+		return addr;
+	}
+
+
+
 	public void setName(String name) {
+
 		this.name = name;
 	}
 
